@@ -64,14 +64,19 @@ class Extension {
 			\ForWP\Auth\API\Routes::get_instance();
 		}
 
-		// Load Admin panel
-		if ( is_admin() && class_exists( '\ForWP\Auth\Admin\Menu' ) ) {
+		// Load Admin panel (always load to enable toolbar hiding on frontend)
+		if ( class_exists( '\ForWP\Auth\Admin\Menu' ) ) {
 			\ForWP\Auth\Admin\Menu::get_instance();
 		}
 
 		// Load Shortcodes
 		if ( class_exists( '\ForWP\Auth\Shortcodes' ) ) {
 			\ForWP\Auth\Shortcodes::init();
+		}
+
+		// Load WooCommerce integration
+		if ( class_exists( '\ForWP\Auth\Integrations\WooCommerce' ) ) {
+			\ForWP\Auth\Integrations\WooCommerce::get_instance();
 		}
 
 		// Run migrations

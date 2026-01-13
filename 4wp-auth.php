@@ -3,7 +3,7 @@
  * Plugin Name: 4wp-auth
  * Plugin URI: https://4wp.dev/plugins/4wp-auth
  * Description: Social authentication plugin for WordPress - Gmail, Facebook, Instagram, TikTok
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: 4wp.dev
  * Author URI: https://4wp.dev
  * License: MIT / GPL-2.0-or-later

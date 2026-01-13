@@ -12,20 +12,26 @@
 
 ## 🔜 Next Steps
 
-### v1.1.0
-- Facebook OAuth integration
-- Instagram OAuth integration
+### v1.1.0 (In Progress)
+- ✅ Facebook OAuth integration (includes Instagram via Facebook Graph API)
+- [ ] Improve error handling and user feedback
+- [ ] Add user profile sync improvements
 
-### v1.2.0
-- TikTok OAuth integration
+### v1.2.0 (Planned)
+- [ ] GitHub OAuth integration
+- [ ] LinkedIn OAuth integration
+- [ ] Enhanced admin UI for provider management
 
 ### Future Considerations
-- User profile sync improvements
-- Additional OAuth providers (if needed)
-- Enhanced error handling
-- Multi-language support improvements
-
----
+- [ ] X (Twitter) OAuth integration
+- [ ] Additional OAuth providers (Apple, etc.) - if needed
+- [ ] TikTok OAuth integration
+- [ ] Enhanced logging and debugging tools
+- [ ] WooCommerce integration
+  - [ ] Integration with WooCommerce login/registration forms
+  - [ ] Automatic WooCommerce customer account creation
+  - [ ] Profile data sync with WooCommerce customer data
+  - [ ] Redirect to WooCommerce my-account page after authentication
+  - [ ] Integration with WooCommerce checkout process
 
 *Note: Roadmap is flexible and may change based on requirements.*
-

@@ -62,10 +62,9 @@ class AuthManager {
 	 */
 	private function register_providers() {
 		$providers = [
-			'gmail' => '\ForWP\Auth\Providers\Gmail',
-			// Other providers will be added later
-			// 'facebook'   => '\ForWP\Auth\Providers\Facebook',
-			// 'instagram'  => '\ForWP\Auth\Providers\Instagram',
+			'gmail'     => '\ForWP\Auth\Providers\Gmail',
+			'facebook'  => '\ForWP\Auth\Providers\Facebook',
+			'instagram' => '\ForWP\Auth\Providers\Instagram',
 			// 'tiktok'     => '\ForWP\Auth\Providers\TikTok',
 		];
 
